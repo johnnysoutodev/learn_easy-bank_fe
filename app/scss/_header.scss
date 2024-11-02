@@ -7,7 +7,8 @@
     &__logo {
         
         img {
-
+            width: 8.8125rem;
+            height: 1.375rem;
         }
     }
 
@@ -28,6 +29,15 @@
         a {
             font-size: $font-sm;
             color: $gravishBlue;
+            transition: color 200ms ease-in-out;
+        }
+
+        &:not(:last-child) {
+            margin-right: 32px;
+        }
+
+        &:hover {
+            color: $darkBlue;
         }
     }
 
