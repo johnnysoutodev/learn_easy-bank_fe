@@ -76,10 +76,10 @@ button, .btn {
   color: hsl(233, 8%, 62%);
   transition: color 200ms ease-in-out;
 }
-.header__links:not(:last-child) {
+.header__links a:not(:last-child) {
   margin-right: 32px;
 }
-.header__links:hover {
+.header__links a:hover {
   color: hsl(233, 26%, 24%);
 }
 .header__cta {
