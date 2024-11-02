@@ -30,15 +30,16 @@
             font-size: $font-sm;
             color: $gravishBlue;
             transition: color 200ms ease-in-out;
+            
+            &:not(:last-child) {
+                margin-right: 32px;
+            }
+    
+            &:hover {
+                color: $darkBlue;
+            }
         }
 
-        &:not(:last-child) {
-            margin-right: 32px;
-        }
-
-        &:hover {
-            color: $darkBlue;
-        }
     }
 
     &__cta {
